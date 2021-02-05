@@ -1,0 +1,319 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   background: #fff url(../img/fundo.png) repeat-x;
+
+}
+
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+	
+}
+/* inico conf logo e barra de navegaçao*/
+
+#topo {
+	height: 150px;
+	background: url(../img/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+
+
+	
+
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat center;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 1.5em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+
+#topo ul .primeiro a {
+	background: none;
+
+}
+
+#topo ul a:hover {
+	color: #69001d;
+}
+
+
+/*incio marcador navegaçao*/
+body.home  #navegacao a#home {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.brasil  #navegacao a#brasil {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.internacional #navegacao a#internacional {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.economia #navegacao a#economia {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.saude  #navegacao a#saude {
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.ciencia #navegacao a#ciencia{
+	background: #de003e;
+	cursor: text;
+
+}
+
+body.fotos #navegacao a#fotos {
+	background: #de003e;
+	cursor: text;
+
+}
+
+/*final marcador navegaçao*/
+
+/* final conf logo e barra de navegaçao*/
+
+
+/*inicio confi conteudo */
+
+#conteudo {
+
+	margin-top: 70px;
+	background: #f5f5f5;
+
+}
+
+
+ #primeiro {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primeiro {
+	width: 555px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primeiro {
+	width:750px;
+	margin: 0 0 20px 0px;
+  
+}
+
+#segundo {
+	width: 270px;
+	float: left;
+	margin:  0 0 20px 15px;
+	
+}
+
+#lateral {
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+	
+}
+
+img { 
+	border: 3px solid #dfdfdf ;
+	
+
+ }
+
+  h3 .noticia {
+ 	text-transform: uppercase;
+ 	display: inline;
+ 	font-size: 1em;
+ 	padding: 3px;
+
+ }
+
+/*fim confi conteudo*/
+
+/*inico confi CAIXA*/
+.caixa {
+	padding: 5px 0 5px 0;
+	margin: 10px 0;
+	background: #f3f3f3 url(../img/fundo-caixa.png) ;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+h2 {
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+
+}
+/*fim confi CAIXA*/
+
+/*incio confi lateral*/
+
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	border-bottom: 1px solid #f3f3f3;
+	text-decoration: none;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+
+}
+
+
+/*fim confi lateral*/
+
+
+
+/*inicio confi formularios*/
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9;
+	background-color: #fff;
+	margin-bottom: 3px;
+}
+
+input.submit {
+	width: 80px;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	color: #fff;
+	padding: 5px;
+}
+
+
+
+/*fim confi formularios*/
+
+/* inico grade noticia */
+
+ #lista-noticia li {
+ 	padding: 2px;
+ 	border-bottom: 1px solid #ccc;
+ 	height: 65px;
+ }
+
+
+
+ #lista-noticia li a {
+ 	text-decoration: none;
+ 	font-size: 0.8em;
+ 	color: black;
+ }
+
+
+ #lista-noticia li a p {
+ 	text-decoration: none;
+ 	font-size: 0.6;
+ }
+
+
+ #lista-noticia li a h3 {
+ 	text-decoration: none;
+ 	font-size: 0.8em;
+ 	color: #3e7ab9 ;
+ }
+
+
+ #lista-noticia li a img {
+ 	float: left;
+ 	margin: 5px;
+
+ }
+
+ #lista-noticia li:hover {
+ 	background: #eee;
+ 	cursor: pointer;
+ }
+
+
+
+
+/* fim grade noticia */
+/*inicio confi RODAPE*/
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+	
+
+}
+
+#rodape {
+    color: #fff;
+	text-align: center;
+}
+
+/*fim confi RODAPE*/
